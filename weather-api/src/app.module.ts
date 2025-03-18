@@ -11,7 +11,7 @@ import { createKeyv } from '@keyv/redis';
       isGlobal: true,
       useFactory: () => {
         return {
-          stores: [createKeyv('redis://localhost:6379')],
+          stores: [createKeyv(process.env.REDIS_HOST)],
           ttl: 60 * 1000,
         };
       },

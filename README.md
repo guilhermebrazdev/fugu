@@ -6,7 +6,7 @@ This repository contains the **Weather API** and the **Frontend** to display wea
 
 - Docker
 - Node.js (with `yarn` installed)
-- Make sure to leave the ports 3000, 6379 and 5173 available. We will need it.
+- Make sure to leave the ports 3000 (api), 6379 (redis) and 5173 (front) available. We will need it.
 
 ### 1. Running the API and Redis
 
