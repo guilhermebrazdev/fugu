@@ -19,7 +19,7 @@ cd weather-api/
 ```
 
 ```bash
-docker-compose up -d
+docker compose up -d
 ```
 
 ```bash
