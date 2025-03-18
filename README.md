@@ -36,7 +36,7 @@ This way, you will have both your API and Redis running locally.
 
 Follow the steps below to run your **react app** locally.
 
-First, go back to the root folder. In the root folder (fugu), run the commands.
+In another terminal window, go back to the root folder. In the root folder (fugu), run the commands.
 
 ```bash
 cd weather-front/
